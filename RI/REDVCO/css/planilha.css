@@ -1,0 +1,231 @@
+.nowrap {
+	white-space: nowrap
+}
+
+.no-bg {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+.table-logo h2 {
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	background-color: #f2f2f2
+}
+
+table td.EnabledCell {
+	padding: 5px
+}
+
+input {
+	vertical-align: bottom;
+}
+
+.form-control {
+	max-width: 100px;
+	display: inline-block;
+	height: auto
+}
+
+.table-planilhas .logo {
+	margin-left: 0
+}
+
+.planilha_din_tit input[type=checkbox] {
+	margin: 4px 10px 0 0
+}
+
+.table-logo td {
+	padding: 10px
+}
+
+.FundtoControleMoedaHeader {
+	width: 7%;
+	background-color: #f8f8f8;
+	text-align: center;
+	vertical-align: top;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.FundtoControleMoeda {
+	width: 7%;
+	background-color: #f8f8f8;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.FundtoControleIdiomaHeader {
+	width: 20%;
+	text-align: center;
+	background-color: #f8f8f8;
+	vertical-align: top;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.FundtoControlePeriodosHeader {
+	width: 7%;
+	background-color: #f8f8f8;
+	text-align: center;
+	vertical-align: top;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.FundtoControlePeriodos {
+	width: 7%;
+	background-color: #f8f8f8;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.FundtoControleExcelHeader {
+	background-color: #F8F8F8;
+	font-size: 11px;
+	font-weight: bold;
+	width: 12%;
+}
+
+.FundtoControlls {
+	background-color: #cbd1c6;
+}
+
+.FundtoDisclaimer {
+	font-size: 11px;
+	padding: 10px;
+	background-color: #EEEEEE;
+}
+
+.tabelaControles tbody tr td {
+	border: 1px #cbd1c6 solid;
+}
+
+.tabelaControles tbody tr td.FundtoExcelHeader,
+.tabelaControles tbody tr td.FundtoControleExcelHeader {
+	border: none
+}
+
+.tabelaControles {
+	border: 1px #cbd1c6 solid
+}
+
+.divTodasColunas {
+	background: url("../img/allColunas.gif") no-repeat center center;
+}
+
+.divTodasLinhas {
+	background-image: url("../img/allLinhas.gif") center center no-repeat;
+	white-space: nowrap;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: var(--client-color2)
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.logoTopo {
+	float: left;
+	padding: 5px 0 10px 20px
+}
+
+.GridView1 {
+	background-color: #e8e8e8;
+	border: 1px solid #cbd1c6;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.GridView1 tr:hover {
+	background-color: #d0d0d0;
+}
+
+.GridView1 th {
+	border: 1px #cbd1c6 solid;
+}
+
+.GridView1 td {
+	border: 1px #cbd1c6 solid;
+}
+
+.planilha_din_tit th {
+	background-color: var(--client-color2);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: var(--branco);
+	text-align: center;
+	white-space: nowrap;
+}
+
+.planilha_din_tit {
+	border-color: #c5c5c5;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	color: var(--branco);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.selectPlanilha {
+	border: 1px solid #C1C1C1;
+}
+
+.planilha_din_botao {
+	background-color: #E8E8E8;
+	border: 1px solid #CCCCCC;
+	color: var(--client-color2);
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: 700;
+	height: 25px;
+}
+
+.EnabledRow {
+	background-color: #f3f4f2
+}
+
+.DisabledCell {
+	color: #cfcfcf;
+}
+
+#TblContent td {
+	padding: 3px;
+}
+
+.FundtoListItem {
+	padding: 10px 20px 10px 20px;
+	font-weight: 700;
+	white-space: nowrap;
+	float: left;
+}
+
+.FundtoListTable {
+	background-image: linear-gradient(to bottom, #eeeeee 0, #cacaca 100%);
+	border-collapse: collapse;
+	border-top: 2px var(--client-color2) solid;
+	border-bottom: 2px var(--client-color2) solid;
+	width: 100%
+}
+
+.tabelaControles td {
+	padding: 3px 0;
+}
+
+.tabelaLogo {
+	background: var(--branco)
+}

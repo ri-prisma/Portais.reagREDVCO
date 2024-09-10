@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master/Master.Master" AutoEventWireup="true" CodeBehind="Internal.master.cs" Inherits="REAG.Master.Internal" %>
+<%@ Register Assembly="ComuniqueSe.WebControls, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=5b058f9e1367e870" Namespace="ComuniqueSe.WebControls.ControleMeusFavoritos" TagPrefix="wfv" %>
+<%@ Register Assembly="ComuniqueSe.WebControls, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=5b058f9e1367e870" Namespace="ComuniqueSe.WebControls.ControlesMenu" TagPrefix="cmn" %>
+
+<asp:Content ContentPlaceHolderID="ContentHead" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="ContentHead"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="ContentInternal" runat="server">   
+
+      <div class="new-banner-title">
+        <img src="img/banner-new.png" alt="" />
+
+        <div class="container title-banner">
+          <h1>REAG REDVCO - Documentos</h1>
+        </div>
+      </div>
+
+    <!-- <div class="bg-breadcrumb d-flex align-items-center text-white" id="idEscpaanimacao" runat="server" >
+        <div class="container ">
+            <h1 class="my-0 d-black">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderTituloCanalPai" runat="server"></asp:ContentPlaceHolder>
+            </h1>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class=" txt-show mg-top-tst">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderTituloCanal" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderBarraBotoes" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderConteudo"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

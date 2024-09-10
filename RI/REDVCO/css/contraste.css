@@ -1,0 +1,264 @@
+body.contraste {
+    --client-color: #000000;
+    --client-color2: #FFFFFF;
+    --client-color3: #FFFFFF;
+    --black: #000000;
+}
+
+body.contraste {
+    font-family: "ItauText_Rg", Arial, Helvetica, Sans-serif;
+    color: var(--branco);
+    color: var(--client-color2);
+    background-color: #000000;
+    background-color: var(--black);
+}
+
+.contraste .bg-secondary {
+    background-color: #000000 !important;
+    background-color: var(--black) !important;
+}
+
+.contraste .bg-cinza1 {
+    background-color: #000000 !important;
+}
+
+.contraste .bg-cinza2 {
+    background-color: #000000 !important;
+}
+
+.contraste .color-cliente,
+.contraste a.color-cliente,
+.contraste a.color-cliente:hover,
+.contraste .color-cliente svg {
+    color: #000000;
+    color: var(--black);
+    fill: #fff !important;
+    fill: var(--client-color) !important;
+}
+
+.contraste .color-cliente2,
+.contraste a.color-cliente2,
+.contraste a.color-cliente2:hover,
+.contraste .color-cliente2 svg {
+    color: var(--branco);
+    color: var(--client-color2);
+}
+
+.contraste .color-cliente3,
+.contraste a.color-cliente3,
+.contraste a.color-cliente3:hover,
+.contraste .color-cliente3 svg {
+    color: var(--branco);
+    color: var(--client-color3);
+    fill: var(--branco);
+    fill: var(--client-color3);
+}
+
+.contraste .wrapper-style {
+    background: #000000 !important;
+    background: var(--black) !important;
+}
+
+.contraste [class^=ico-] {
+    fill: #fff !important;
+    fill: var(--client-color2) !important;
+}
+
+.contraste .text-white a,
+.contraste .text-white,
+.contraste .text-white svg {
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.contraste a {
+    color: var(--branco);
+    color: var(--client-color2);
+}
+
+.contraste .navbar-brand img {
+    display: none;
+}
+
+.contraste .navbar-brand img.logo-branco {
+    display: block;
+}
+
+.contraste .bg-light {
+    background-color: #000000 !important;
+}
+
+.contraste .btn-primary {
+    color: #000000 !important;
+    color: var(--black) !important;
+    background-color: var(--branco);
+    background-color: var(--client-color2);
+}
+
+.contraste .btn-primary:hover,
+.contraste .btn-primary:focus,
+.contraste .btn-primary:not(:disabled):not(.disabled):active,
+.contraste .btn-primary:not(:disabled):not(.disabled).active,
+.contraste .show>.btn-primary.dropdown-toggle {
+    background-color: #000000;
+    background-color: var(--client-color2);
+}
+
+.contraste .btn-primary svg {
+    fill: #000000 !important;
+    fill: var(--black) !important;
+}
+
+.contraste .btn-outline-primary {
+    color: var(--branco);
+    color: var(--client-color2);
+    border-color: var(--branco);
+    border-color: var(--client-color2);
+}
+
+.contraste .btn-outline-primary:hover,
+.contraste .btn-outline-primary:not(:disabled):not(.disabled):active,
+.contraste .btn-outline-primary:not(:disabled):not(.disabled).active,
+.contraste .show>.btn-outline-primary.dropdown-toggle {
+    background-color: var(--branco);
+    background-color: var(--client-color2);
+    border-color: var(--branco);
+    border-color: var(--client-color2);
+    color: #000000;
+    color: var(--black);
+}
+
+.contraste .btn-outline-azul {
+    color: var(--branco);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--branco);
+}
+
+.contraste .btn-outline-azul:hover,
+.contraste .btn-outline-azul:focus,
+.contraste .btn-outline-azul:not(:disabled):not(.disabled):active,
+.contraste .btn-outline-azul:not(:disabled):not(.disabled).active,
+.contraste .show>.btn-outline-azul.dropdown-toggle {
+    color: #000000;
+    background-color: var(--branco);
+    border-color: var(--branco);
+}
+
+.contraste .darkLayer {
+    background-color: rgba(0, 0, 0, .9);
+    color: var(--branco);
+}
+
+.contraste .darkLayer .form-search .form-control {
+    border-bottom: 1px #ffffff solid;
+    color: #fff;
+    color: var(--client-color3);
+}
+
+.contraste .form-search .form-control::-moz-placeholder {
+    color: #fff;
+    color: var(--client-color3);
+    opacity: 1;
+}
+
+.contraste .form-search .form-control:-ms-input-placeholder {
+    color: #fff;
+    color: var(--client-color3);
+}
+
+.contraste .form-search .form-control::-webkit-input-placeholder {
+    color: #fff;
+    color: var(--client-color3);
+}
+
+.contraste .darkLayer .form-search .input-group-append {
+    border-bottom: 1px #ffffff solid;
+}
+
+.contraste .darkLayer .form-search .input-group-append a,
+.contraste .form-search a {
+    color: var(--branco);
+}
+
+.contraste .form-contato .form-control {
+    border-color: #fff;
+    border-color: var(--client-color3);
+    color: #000000;
+    color: var(--client-color);
+}
+
+.contraste .form-contato .form-control::-moz-placeholder {
+    color: #000000;
+    color: var(--client-color);
+}
+
+.contraste .card .card-body{
+	background-color: #000;
+}
+
+.contraste .list-group-item:nth-child(even) {
+    background-color: #000;
+}
+
+
+.contraste .form-contato .form-control:-ms-input-placeholder {
+    color: #000000;
+    color: var(--client-color);
+}
+
+.contraste .form-contato .form-control::-webkit-input-placeholder {
+    color: #000000;
+    color: var(--client-color);
+}
+
+.contraste .modal-backdrop.show {
+    background-color: #000000;
+}
+
+.contraste .modal-content {
+    color: var(--branco);
+}
+
+.contraste .modal-content {
+    background-color: #000000;
+    background-color: var(--client-color);
+}
+
+.contraste .modal .modal-title {
+    color: var(--branco);
+    color: var(--client-color2);
+
+}
+
+.contraste .close svg {
+    fill: #000000;
+    fill: var(--client-color);
+}
+
+.contraste .modal .form-contato select.form-control {
+    border-color: #000000;
+    color: #000000;
+}
+
+.contraste .modal .form-contato select.form-control::-moz-placeholder {
+    color: #000000;
+}
+
+.contraste .modal .form-contato select.form-control:-ms-input-placeholder {
+    color: #000000;
+}
+
+.contraste .modal .form-contato select.form-control::-webkit-input-placeholder {
+    color: #000000;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1440px) {}
+
+@media (min-width: 1920px) {}
