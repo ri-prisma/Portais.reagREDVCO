@@ -9,10 +9,11 @@
 <asp:Content ContentPlaceHolderID="ContentInternal" runat="server">   
 
       <div class="new-banner-title">
-        <img src="img/banner-new.png" alt="" />
+       <!-- <img src="img/banner-new.png" alt="" /> -->
+       <div class="banner-img"></div>
 
         <div class="container title-banner">
-          <h1>REAG REDVCO - Documentos</h1>
+          <h1>REDVCO - Documentos</h1>
         </div>
       </div>
 

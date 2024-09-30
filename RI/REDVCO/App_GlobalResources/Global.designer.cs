@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a © Copyright 2024 REDVCO.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a © Copyright 2024 Reag.
         /// </summary>
         internal static string copyright {
             get {
@@ -70,8 +70,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a http://reagredvco.riprisma.com.
-        /// </summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a https://redvco.riprisma.com.
+        /// </summary>  
         internal static string enderecoSite {
             get {
                 return ResourceManager.GetString("enderecoSite", resourceCulture);
@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a MeusDownloadsREAG.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a MeusDownloadsReag.
         /// </summary>
         internal static string nomeCookieMeusdownloads {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a REDVCO.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Reag.
         /// </summary>
         internal static string tituloSite {
             get {

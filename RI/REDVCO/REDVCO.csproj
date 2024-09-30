@@ -75,6 +75,7 @@
     <Content Include="css\planilha.css" />
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="fale_conosco.aspx" />
     <Content Include="favicon\favicon.ico" />
     <Content Include="favicon\favicon.png" />
     <Content Include="filtroListGroup.asmx" />
@@ -115,6 +116,7 @@
     <Content Include="js\Show.js" />
     <Content Include="ListaBusca.aspx" />
     <Content Include="ListGroup.aspx" />
+    <Content Include="ListResultados.aspx" />
     <Content Include="Show.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -130,6 +132,13 @@
     </Compile>
     <Compile Include="ascx\MenuTopo.ascx.designer.cs">
       <DependentUpon>MenuTopo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="fale_conosco.aspx.cs">
+      <DependentUpon>fale_conosco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fale_conosco.aspx.designer.cs">
+      <DependentUpon>fale_conosco.aspx</DependentUpon>
     </Compile>
     <Compile Include="filtroListGroup.asmx.cs">
       <DependentUpon>filtroListGroup.asmx</DependentUpon>
@@ -151,6 +160,13 @@
     </Compile>
     <Compile Include="ListGroup.aspx.designer.cs">
       <DependentUpon>ListGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListResultados.aspx.cs">
+      <DependentUpon>ListResultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListResultados.aspx.designer.cs">
+      <DependentUpon>ListResultados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Internal.master.cs">
       <DependentUpon>Internal.master</DependentUpon>
@@ -199,6 +215,7 @@
     <Content Include="App_GlobalResources\Global.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Global.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="App_LocalResources\ListaBusca.aspx.en-US.resx" />
     <Content Include="App_LocalResources\ListaBusca.aspx.resx" />
@@ -240,6 +257,18 @@
       <Project>{07de79a8-159e-4c41-8a45-976a66052436}</Project>
       <Name>ComuniqueSeWorkflow.Infraestrutura</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\fale_conosco.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\fale_conosco.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ListResultados.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ListResultados.aspx.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

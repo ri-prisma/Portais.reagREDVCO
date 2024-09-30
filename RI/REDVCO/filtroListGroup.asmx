@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="filtroListGroup.asmx.cs" Class="REAG.filtroListGroup" %>
+﻿<%@ WebService Language="C#" CodeBehind="filtroListGroup.asmx.cs" Class="Reag.filtroListGroup" %>

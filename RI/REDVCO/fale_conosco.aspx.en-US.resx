@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="codigo" xml:space="preserve">
+    <value>CODE *</value>
+  </data>
+  <data name="Enviar" xml:space="preserve">
+    <value>Get in touch</value>
+  </data>
+  <data name="Error_Email" xml:space="preserve">
+    <value>Incorrect email</value>
+  </data>
+  <data name="Mensagem" xml:space="preserve">
+    <value>Message*</value>
+  </data>
+  <data name="MsgCaptcha" xml:space="preserve">
+    <value>Select the!</value>
+  </data>
+  <data name="MsgEnviada" xml:space="preserve">
+    <value>Your message has been sent successfully.</value>
+  </data>
+  <data name="Nome" xml:space="preserve">
+    <value>Full name*</value>
+  </data>
+  <data name="Obrigatorio" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Telefone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="TemplateFaleConosco" xml:space="preserve">
+    <value>&lt;table style="background:#ffffff!important;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+    &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+      &lt;td  align="center" valign="top" style="Margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+        &lt;center style="min-width:580px;width:100%"&gt;
+          &lt;table align="center"  style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;padding:0;text-align:center;vertical-align:top;width:580px"&gt;
+            &lt;tbody&gt;
+              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                &lt;td style="Margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                  &lt;table  style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th style="margin:0 auto;padding:0!important;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;center style="min-width:532px;width:100%"&gt;
+
+                                    &lt;img src="https://template.riprisma.com/templatesPadrao/template/testeira-en.jpg" alt="Riweb - Relações com Investidores" align="center" style="clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"&gt;
+                                  
+                                  &lt;/center&gt;
+                                &lt;/th&gt;
+                                &lt;th s style="margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"&gt;&lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;table  style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th style="margin:0 auto;padding:0!important;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;center style="min-width:532px;width:100%"&gt;
+                                    &lt;h3 align="center"  style="color:#000000;font-weight: 700;font-family:Arial,sans-serif;font-size:20px;line-height:1.3;margin-top:50px;margin-bottom:24px;padding:0;text-align:center;word-wrap:normal"&gt;New contact&lt;/h3&gt;
+                                  &lt;/center&gt;
+                                &lt;/th&gt;
+                                &lt;th  style="margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"&gt;&lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;table  style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th style="margin:0 auto;padding:0!important;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;center style="min-width:532px;width:100%"&gt;
+                                    &lt;h5 align="center" style="color:#4D4D4D;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:15px;padding:0;text-align:center;word-wrap:normal"&gt;{0}, has just signed up at Riweb.&lt;/h5&gt;
+                                  &lt;/center&gt;
+                                &lt;/th&gt;
+                                &lt;th style="margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"&gt;&lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;table  style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th  style="margin:0 auto;padding:0!important;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;center style="min-width:532px;width:100%"&gt;
+                                    &lt;p align="center"  style="color:#4D4D4D;font-weight:400;line-height:1.3;margin-bottom:90px;text-align:center"&gt;
+									
+													Name: {0}&lt;br /&gt;
+                  Email: {3}&lt;br /&gt;
+                  Telephone: {1}&lt;br /&gt;
+                  Message: {2}
+				  &lt;/p&gt;
+                                  &lt;/center&gt;
+                                &lt;/th&gt;
+                                &lt;th  style="margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"&gt;&lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;table style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th  style="margin:0 auto;padding:0!important;padding:0;text-align:left;vertical-align:top;width:274px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;center style="min-width:242px;width:100%"&gt;
+                                    &lt;p align="center"  style="color:#000000;display:block;line-height:1.3;text-align:center;padding-bottom: 20px; "&gt;
+
+                                      &lt;a href="mailto:ri@cliente.com.br" style="font-weight: 400; color:#000000;line-height:1.3;padding:0;text-align:left;text-decoration:none;"&gt;ri@cliente.com.br&lt;/a&gt; 
+
+                                      &lt;span style="color:#000000;margin:0 10px;font-weight: 400;"&gt;|&lt;/span&gt; 
+
+                                      &lt;a href="https://ri.cliente.com.br" target="_blank" style="font-weight: 400;color:#000000;line-height:1.3;padding:0;text-align:left;text-decoration:none;"&gt;ri.cliente.com.br&lt;/a&gt;
+
+                                    &lt;/p&gt;
+                                  &lt;/center&gt;
+                                &lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;table  style="border-collapse:collapse;border-spacing:0;display: table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%"&gt;
+                    &lt;tbody&gt;
+                      &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                        &lt;th  style="margin:0 auto;padding:0!important;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"&gt;
+                          &lt;table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%"&gt;
+                            &lt;tbody&gt;
+                              &lt;tr style="padding:0;text-align:left;vertical-align:top"&gt;
+                                &lt;th style="margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"&gt;
+                                  &lt;a href="https://www.riprisma.com/" target="_blank" style="color:#1D3767;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none"&gt;
+                                    &lt;center style="min-width:532px;width:100%"&gt;
+                                      &lt;img src="https://template.riprisma.com/prisma/template/prisma.png" alt="Prisma" align="center" style="-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"&gt;&lt;/center&gt;
+                                  &lt;/a&gt;&lt;/th&gt;
+                                &lt;th  style="margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"&gt;&lt;/th&gt;
+                              &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                          &lt;/table&gt;
+                        &lt;/th&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                &lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        &lt;/center&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;&lt;!-- prevent Gmail on iOS font size manipulation --&gt;
+  &lt;div style="display:none;white-space:nowrap;font:15px courier;line-height:0"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;</value>
+  </data>
+  <data name="FaleConosco" xml:space="preserve">
+    <value>IR Contact</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email*</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="CamposObrigatorios" xml:space="preserve">
+    <value>(*) Required Fields</value>
+  </data>
+  <data name="EnvieMensagem" xml:space="preserve">
+    <value>Send a message</value>
+  </data>
+  <data name="Assunto" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Nao" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="txtFaleRI" xml:space="preserve">
+    <value>Fill in the form below to get in touch</value>
+  </data>
+  <data name="Digite" xml:space="preserve">
+    <value>Write your message</value>
+  </data>
+  <data name="limpar" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="MsgTermos" xml:space="preserve">
+    <value>Accept the terms to proceed!</value>
+  </data>
+  <data name="termos" xml:space="preserve">
+    <value>Prisma respects your privacy and uses your personal data only to provide information requested by you. To learn more, check out our &lt;a href="#"&gt;Privacy Policy&lt;/a&gt;. By clicking "Contact" below, you authorize Prisma to store and process the personal data entered above in order to contact you and provide you with the information requested by you.</value>
+  </data>
+  <data name="dividendos" xml:space="preserve">
+    <value>ex: dividends</value>
+  </data>
+  <data name="nomeEmpresa" xml:space="preserve">
+    <value>Company S.A.</value>
+  </data>
+  <data name="privacidade" xml:space="preserve">
+    <value>You accept our terms and can read our &lt;a href="#"&gt;Privacy Policy&lt;/a&gt; whenever you likeS</value>
+  </data>
+  <data name="duvida" xml:space="preserve">
+    <value>E.g.: Doubt about quotes</value>
+  </data>
+  <data name="digiteEmail" xml:space="preserve">
+    <value>Type your e-mail @</value>
+  </data>
+  <data name="digiteEmpresa" xml:space="preserve">
+    <value>Enter your company name</value>
+  </data>
+  <data name="digiteNome" xml:space="preserve">
+    <value>Enter your full name</value>
+  </data>
+  <data name="disclaimer" xml:space="preserve">
+    <value>Declaro ser maior de 12 anos e consinto que meus dados pessoais sejam coletados para contato de retorno das minhas solicitações, controle interno, acompanhamento da demanda e para atividades de marketing direto, incluindo envio de Newsletter. Estou de acordo com a política de privacidade e ciente de que os dados de crianças não são tratados pela Meta nas interações de "Contato" ou "Trabalhe Conosco". Para mais informações, leia nossa política de privacidade.</value>
+  </data>
+  <data name="outro" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="selecionar" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Prefere" xml:space="preserve">
+    <value>Prefer to be contacted by:</value>
+  </data>
+</root>

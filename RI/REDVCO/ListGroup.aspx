@@ -5,8 +5,7 @@
 
 
 <asp:content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBarraBotoes" runat="server">    
-    <uct:MenuTopo ID="menuTopo" runat="server"
-     PermiteDllAno="True"/>
+
 </asp:content>
 
 
@@ -23,6 +22,47 @@
 
 
     <div class=" txt-show list-show " id="totalContent" style="display:none;">
+
+  <div id="" class="justify-content-center form-contato form-inline">
+   <div class="tabs-main">
+     <ul class="nav nav-tabs" id="myTab" role="tablist">
+       <li class="nav-item">
+         <a
+           class="nav-link"
+           id="home-tab"
+           href="/central-de-resultados"
+           >Central de Resultados</a
+         >
+       </li>
+
+       <li class="nav-item">
+         <a
+           class="nav-link active"
+           id="profile-tab"            
+           href="#"
+          data-toggle="tab"
+          role="tab"
+          aria-controls="profile-tab"
+          aria-selected="true"
+           >Documentos CVM</a>
+       </li>
+
+       <li class="nav-item">
+         <a
+           class="nav-link"
+           id="contact-tab"                 
+           href="./fale-com-o-ri"             
+           >Fale com RI</a
+         >
+       </li>
+     </ul>
+   </div>
+
+     <uct:MenuTopo ID="menuTopo" runat="server"
+     PermiteDllAno="True"/>
+        
+ </div>
+
         <div id="accordion">
             <asp:Repeater ID="rptList" OnItemDataBound="rptList_OnItemDataBound" runat="server">
                 <ItemTemplate>             

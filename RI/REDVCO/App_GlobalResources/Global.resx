@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="copyright" xml:space="preserve">
-    <value>© Copyright 2024 REDVCO</value>
+    <value>© Copyright 2024 Reag</value>
   </data>
   <data name="enderecoSite" xml:space="preserve">
-    <value>http://reagredvco.riprisma.com</value>
+    <value>https://redvco.riprisma.com/</value>
   </data>
   <data name="nomeCookieMeusdownloads" xml:space="preserve">
-    <value>MeusDownloadsREAG</value>
+    <value>MeusDownloadsReag</value>
   </data>
   <data name="tituloSite" xml:space="preserve">
-    <value>REDVCO</value>
+    <value>Reag</value>
   </data>
 </root>
