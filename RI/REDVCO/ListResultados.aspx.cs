@@ -130,6 +130,9 @@ namespace REAG
               
                         if (arquivoResultado.Descricao.ToLower().IndexOf("vídeo") >= 0 || arquivoResultado.Descricao.ToLower().IndexOf("video ") >= 0)
                             AjustaLinksArquivos1(periodo, "Video", e, arquivoResultado);
+
+                        if (arquivoResultado.Descricao.ToLower().IndexOf("apresentação") >= 0)
+                            AjustaLinksArquivos1(periodo, "Apresentacao", e, arquivoResultado);
                         break;
                     case "en-US":
                        
@@ -141,6 +144,9 @@ namespace REAG
                        
                         if (arquivoResultado.Descricao.ToLower().IndexOf("video ") >= 0)
                             AjustaLinksArquivos1(periodo, "Video", e, arquivoResultado);
+
+                        if (arquivoResultado.Descricao.ToLower().IndexOf("presentation") >= 0)
+                            AjustaLinksArquivos1(periodo, "Apresentacao", e, arquivoResultado);
 
                         break;
                 }

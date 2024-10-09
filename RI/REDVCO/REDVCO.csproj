@@ -107,6 +107,7 @@
     <Content Include="js\html5shiv.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\ListGroup.js" />
+    <Content Include="js\ListResultados.js" />
     <Content Include="js\Master.js" />
     <Content Include="js\meiomask.js" />
     <Content Include="js\MenuTopo.js" />
@@ -217,9 +218,7 @@
       <LastGenOutput>Global.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_LocalResources\ListaBusca.aspx.en-US.resx" />
     <Content Include="App_LocalResources\ListaBusca.aspx.resx" />
-    <Content Include="App_LocalResources\ListGroup.aspx.en-US.resx" />
     <Content Include="App_LocalResources\ListGroup.aspx.resx" />
     <Content Include="ascx\App_LocalResources\MenuTopo.ascx.en-US.resx" />
     <Content Include="ascx\App_LocalResources\MenuTopo.ascx.resx" />
@@ -259,13 +258,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_LocalResources\fale_conosco.aspx.en-US.resx" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="App_LocalResources\fale_conosco.aspx.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_LocalResources\ListResultados.aspx.en-US.resx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_LocalResources\ListResultados.aspx.resx" />
