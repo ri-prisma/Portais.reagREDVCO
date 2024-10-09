@@ -233,27 +233,27 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSe.Portais\ComuniqueSe.Portais.Paginas.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSe.Portais\ComuniqueSe.Portais.Paginas.csproj">
       <Project>{3040c94d-0dd4-4ab3-b192-267ee3ca77fd}</Project>
       <Name>ComuniqueSe.Portais.Paginas</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSe.WebControls\ComuniqueSe.WebControls.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSe.WebControls\ComuniqueSe.WebControls.csproj">
       <Project>{8b4ac339-176f-40d3-9533-37786a6228a6}</Project>
       <Name>ComuniqueSe.WebControls</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSeWorkflow.Container\ComuniqueSeWorkflow.Container.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSeWorkflow.Container\ComuniqueSeWorkflow.Container.csproj">
       <Project>{bb88514e-31dd-4343-a7f2-abb321c1f511}</Project>
       <Name>ComuniqueSeWorkflow.Container</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSeWorkflow.Dominio\ComuniqueSeWorkflow.Dominio.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSeWorkflow.Dominio\ComuniqueSeWorkflow.Dominio.csproj">
       <Project>{45ab0b28-f556-4976-a213-dc05b41cbeee}</Project>
       <Name>ComuniqueSeWorkflow.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSeWorkFlow.Repositorio\ComuniqueSeWorkflow.Repositorio.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSeWorkFlow.Repositorio\ComuniqueSeWorkflow.Repositorio.csproj">
       <Project>{5432fc71-f1e8-46ee-8a8b-d49fd11e9f4b}</Project>
       <Name>ComuniqueSeWorkflow.Repositorio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Portais.NovoWorkr\ComuniqueSeWorkflow.Unity\ComuniqueSeWorkflow.Infraestrutura.csproj">
+    <ProjectReference Include="..\..\..\..\Comunique-seGit\NovoWork\ComuniqueSeWorkflow.Unity\ComuniqueSeWorkflow.Infraestrutura.csproj">
       <Project>{07de79a8-159e-4c41-8a45-976a66052436}</Project>
       <Name>ComuniqueSeWorkflow.Infraestrutura</Name>
     </ProjectReference>
