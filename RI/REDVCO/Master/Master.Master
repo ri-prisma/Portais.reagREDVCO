@@ -15,19 +15,19 @@
 
             <head runat="server">
                 <meta charset="utf-8">
-                <title>REDVCO - Relações com Investidores</title>
+                <title>RDVC City - Relações com Investidores</title>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="keywords" content="" />
                 <meta name="description"
-                    content="Somos uma empresa de Real Estate dedicada à gestão de Venues e à criação de momentos únicos." />
+                    content="Uma incorporadora diversificada, com a missão de transformar o cenário urbano em novos conceitos imobiliários, combinando arquitetura e inovação." />
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta property="og:title" content="REDVCO - Relações com Investidores" />
+                <meta property="og:title" content="RDVC City - Relações com Investidores" />
                 <meta property="og:description"
-                    content="Somos uma empresa de Real Estate dedicada à gestão de Venues e à criação de momentos únicos." />
-                <meta property="og:image" content="" />
+                    content="Uma incorporadora diversificada, com a missão de transformar o cenário urbano em novos conceitos imobiliários, combinando arquitetura e inovação." />
+                 <meta property="og:image" content="https://ri.city3.com.br/img/thumbnail_redvco.jpg" />
 
                 <!-- Favicon -->
-                <link rel="shortcut icon" type="image/x-icon" href="" />
+                <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.jpg" />
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -57,49 +57,15 @@
                     <div id="fadeModal" class="modal-backdrop fade in" style="display: none"></div>
 
                     <div class="header">
-                        <div class="container container-header">
+                        <div class="container">
                             <nav class="navbar navbar-expand-lg px-0">
-                                <div class="navbar-social">
-                                    <a class="email" href="mailto:contato@revee.com.br"><img src="img/email.png"
-                                            alt="E-mail"><span>contato@revee.com.br</span>
-                                    </a>
-                                    <div class="social">
-                                        <a href="https://www.instagram.com/revee_oficial/"><img src="img/instagram.png"
-                                                alt="Instagram"></a>
-                                        <a href="https://www.linkedin.com/company/reveerealstate"><img
-                                                src="img/linkedin.png" alt="Linkedin"></a>
-                                        <a href="https://www.youtube.com/@REVEE_OFICIAL"><img src="img/youtube.png"
-                                                alt="Youtube"></a>
-                                    </div>
-                                </div>
-
-                                <a class="navbar-brand " href="/Default.aspx">
-                                    <img src="img/logo-revee-white.png" alt="Revee">
-                                    <img src="img/logo-revee-white.png" class="logo-branco" alt="Revee">
+                                
+                                <a href="/Default.aspx">
+                                    <img src="img/logo-redvco.png" alt="Revee">
                                 </a>
 
-                                <div class="navbar-links">
-                                    <ul class="left-side">
-                                        <li> <a href="https://revee.com.br/">Home</a></li>
-                                        <li> <a href="https://revee.com.br/revee/">Revee</a></li>
-                                        <li> <a href="https://revee.com.br/core-business/">Core Business</a></li>
-                                    </ul>
-                                    <ul class="right-side">
-                                        <li><a href="https://revee.com.br/imprensa/">Imprensa</a></li>
-                                        <span>|</span>
-                                        <li> <a href="https://revee.com.br/contato/">Contato</a></li>
-                                    </ul>
-                                </div>
 
-                                <button type="button" class="toggle-mobile-menu" aria-label="Abrir Menu">
-                                    <span class="icon-nav" title="Abrir Menu"></span>
-                                </button>
-
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target=".navbarsMenu" aria-controls="navbarsMenu" aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                                <a class="link-inst" href="https://redvco.com.br/"><img src="/img/inst.svg"><span>Institucional</span></a>
 
                                 <div class="collapse-none">
                                     <ul class="navbar-nav ml-auto">
@@ -164,7 +130,7 @@
                         <div class="container">
                             <div class="d-lg-flex justify-content-lg-between align-items-center">
                                 <div>
-                                    <strong class="t-bold">© Copyright 2024 REDVCO</strong>
+                                    <strong class="t-bold">© Copyright 2024 RDVC City</strong>
                                 </div>
 
                                 <a class="developed-by" href="https://riprisma.com.br" target="_blank">
