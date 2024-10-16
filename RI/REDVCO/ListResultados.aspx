@@ -138,7 +138,7 @@
 						</tr>
 						<tr>
 							<td class="tituloCentral">
-								DFP REDVCO SA
+								DFP RDVC City
 							</td>
 							<td>
 								<a class="pdf" runat="server" id="linkArq_DFP1T" href="#" target="_blank">
