@@ -203,9 +203,15 @@
                 </form>
 
 
-    <!-- Google tag (gtag.js) --> <script async src="
-    https://www.googletagmanager.com/gtag/js?id=G-T97G7L8EEF"></script>
-    <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-T97G7L8EEF'); </script>
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-XP8QQG733W"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-XP8QQG733W');
+                </script>
             </body>
 
             </html>
